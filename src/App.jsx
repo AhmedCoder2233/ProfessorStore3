@@ -79,48 +79,48 @@ const ProfessorStore = () => {
       id: 1,
       title: "Epic Minecraft Trailer 2",
       description: "Cinematic server showcase",
-      videoUrl: "trailor1.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/trailor1.mp4"
     },
     {
       id: 2,
       title: "Epic Minecraft Trailer 1",
       description: "Cinematic server showcase",
-      videoUrl: "trailor2.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/trailor2.mp4"
     },
   ];
 
   const shortVideos = [
     {
       id: 1,
-      videoUrl: "short1.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short1.mp4"
     },
     {
       id: 2,
-      videoUrl: "short2.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short2.mp4"
     },
     {
       id: 3,
-      videoUrl: "short4.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short3.mp4"
     },
     {
       id: 4,
-      videoUrl: "short3.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short4.mp4"
     },
     {
       id: 5,
-      videoUrl: "short6.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short6.mp4"
     },
     {
       id: 6,
-      videoUrl: "short7.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short7.mp4"
     },
     {
       id: 7,
-      videoUrl: "short8.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short8.mp4"
     },
     {
       id: 8,
-      videoUrl: "short9.mp4"
+      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short9.mp4"
     },
   ];
 
@@ -398,7 +398,9 @@ const ProfessorStore = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {trailerVideos.map((video, i) => (
                 <motion.div
-                  key={video.id}
+                  key={
+                    
+                    video.id}
                   variants={itemVariants}
                   whileHover={{ scale: 1.03, rotateY: 2 }}
                   className="relative group overflow-hidden rounded-2xl h-72 cursor-pointer"
@@ -858,6 +860,5 @@ const ProfessorStore = () => {
     </div>
   );
 };
-
 
 export default ProfessorStore;
