@@ -79,48 +79,48 @@ const ProfessorStore = () => {
       id: 1,
       title: "Epic Minecraft Trailer 2",
       description: "Cinematic server showcase",
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/trailor1.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764685732/trailor1_jmobqi.mp4"
     },
     {
       id: 2,
       title: "Epic Minecraft Trailer 1",
       description: "Cinematic server showcase",
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/trailor2.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764685798/trailor2_zuoshr.mp4"
     },
   ];
 
   const shortVideos = [
     {
       id: 1,
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short1.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764687520/short1_q9ivgn.mp4"
     },
     {
       id: 2,
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short2.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764687761/short2_h45asz.mp4"
     },
     {
       id: 3,
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short3.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764687835/short8_e79hbu.mp4"
     },
     {
       id: 4,
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short4.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764687850/short6_wkxsif.mp4"
     },
     {
       id: 5,
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short6.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764687888/short4_hynyux.mp4"
     },
     {
       id: 6,
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short7.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764687906/short7_ga8zeq.mp4"
     },
     {
       id: 7,
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short8.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764687948/short9_xhvwky.mp4"
     },
     {
       id: 8,
-      videoUrl: "https://k55kufpsrsyss1ua.public.blob.vercel-storage.com/short9.mp4"
+      videoUrl: "https://res.cloudinary.com/dhajfzxvj/video/upload/f_auto,q_auto,vc_auto/v1764687951/short3_dgqcuf.mp4"
     },
   ];
 
@@ -150,18 +150,6 @@ const ProfessorStore = () => {
     },
     {
       id: 2,
-      type: "gif",
-      src: "banner.gif",
-      alt: "Minecraft Voting Banner 2"
-    },
-    {
-      id: 3,
-      type: "gif",
-      src: "banner3.gif",
-      alt: "Minecraft Voting Banner 3"
-    },
-    {
-      id: 4,
       type: "gif",
       src: "banner4.gif",
       alt: "Minecraft Voting Banner 4"
